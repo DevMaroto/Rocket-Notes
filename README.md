@@ -3,7 +3,7 @@
 <h2 align= "center"> Aplicações para salvar e gerenciar seus links úteis </h2>
 <br><br>
 
-<h2>Front-End</h2>
+<h2>(Front-End)</h2>
 
 https://github.com/user-attachments/assets/e99baa82-2802-422e-901e-2cd827b5c73c
 
