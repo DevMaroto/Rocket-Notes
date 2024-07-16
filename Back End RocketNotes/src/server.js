@@ -1,3 +1,4 @@
+require("dotenv/config");
 require("express-async-errors");
 
 const migrationsRun = require("./database/sqlite/migrations");
@@ -39,7 +40,7 @@ app.use((error, request, response, next) => {
   });
 });
 
-const PORT = 3333;
+const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => console.log(`server is running on port ${PORT}`));
 
 // por padrão quando não utilizamos o nome do arquivo ele busca por um arquivo chamado de index (linha de codigo n°4)
